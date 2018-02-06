@@ -1,0 +1,141 @@
+.header-flexbox {
+    background-image: url("../images/bg.jpg");
+    background-color: #3e3c8c;
+    padding: 40px;
+    width: 100%;
+}
+
+nav {
+	background-color: #fff;
+	margin-top: 0;
+	padding: 20px;
+}
+
+.main-menu li {
+    display: inline-block;
+    text-align: right;
+    list-style-type: none;
+}
+
+.menu-item{
+
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background: #4577ad;
+}
+
+a:active {
+    color: #f1616e;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    margin: 20px;
+    padding: 15px;
+    width: 100%;
+    line-height: 1.5;
+    font-size: 40px;
+}
+
+h2 {
+    color: #1ab798;
+    background: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    line-height: 36px;
+}
+
+body {
+	margin: 0px;
+    width: 100%;
+}
+
+.link {
+    color: #fff;
+}
+
+.button-flexbox {
+	color: #fff;
+	background: green;
+	font-size: 18px;
+}
+
+h3 {
+	color: #222222;
+	text-align: left;
+    margin: 20px;
+    padding: 15px;
+    width: 100%;
+    line-height: 18px;
+}
+
+.video {
+	background: #00e2ff;
+	padding: 20px;
+}
+
+.video-flexbox {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    text-align: left;
+}
+
+.photo-flexbox li {
+    display: inline-block;
+    justify-content: space-around;
+    width: 20%
+    padding: 90px;
+    text-align: center;
+}
+
+h4 {
+	color: #062033;
+	text-align: center;
+	line-height: 24px;
+}
+
+.footer-flexbox {
+	background-image: url("../images/contact (in front of).jpg");
+	background-image: url("../images/contact (behind).jpg");
+	background-color: #000;
+	width: 100%;
+}
+
+h5 {
+	color: #fff;
+	text-align: center;
+	line-height: 24px;
+}
+
+h6 {
+	color: #fff;
+	text-align: left;
+	line-height: 24px;
+}
+
+.footer-flexbox span {
+	color: #fff;
+	text-align: left;
+	line-height: 21px;
+}
+
+.contacts {
+	color: #bface2;
+	text-align: left;
+	line-height: 21px;
+}
+
