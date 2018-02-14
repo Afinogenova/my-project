@@ -1,0 +1,67 @@
+@keyframes MoveCustomer {
+	0% {
+		opacity: 1;
+		width: 300px;
+		left: 0;
+	    top: 0;
+	    transform: rotate(0deg);
+	}
+	50% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 0.3;
+		width: 50px;
+		left: 300px;
+		top: 200px;
+		transform: rotate(720deg);
+	}
+}
+
+.customer__image {
+	-webkit-animation: MoveCustomer 5s;
+	-o-animation: MoveCustomer 5s;
+	animation: MoveCustomer 5s;
+	position: relative;
+}
+
+@keyframes MoveMobileapp {
+	0% {
+		opacity: 1;
+		width: 300px;
+	    transform: translate(0);
+	}
+	
+	100% {
+		opacity: 0.5;
+		width: 50px;
+		transform: translate(50%);
+	}
+}
+
+.mobileapp__image {
+	-webkit-animation: MoveMobileapp 10s;
+	-o-animation: MoveMobileapp 10s;
+	animation: MoveMobileapp 10s;
+	position: relative;
+}
+
+@keyframes MoveOneMobile {
+	0% {
+		opacity: 1;
+	    transform: scale(1);
+	}
+	
+	100% {
+		opacity: 0.5;
+		transform: scale(3);
+	}
+}
+
+.one-mobile__image {
+	-webkit-animation: MoveOneMobile 1s;
+	-o-animation: MoveOneMobile 1s;
+	animation: MoveOneMobile 1s;
+	position: relative;
+
+}
